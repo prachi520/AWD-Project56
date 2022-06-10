@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YMH Foundation | Pay
+    </title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="9.2.css">
+    <link rel="shortcut icon" type="image/png" href="icon.png">
+</head>
+<body class="body">
+    <nav class="navbar">
+        <h1>YOUR MENTAL HEALTH FOUNDATION</h1>
+        <ul class="nav_links">
+            <li><a href="1.2.html" class="ctn2">HOME</a></li>
+            <li><a href="2.2.html" class="ctn2">GET HELP</a></li>
+            <li><a href="4.2.html" class="ctn2 active"> DONATE</a></li>
+            <li><a href="3.2.html" class="ctn2">ABOUT US</a></li>
+            <li><a href="5.2.html" class="ctn2">COUNSELLOR LOGIN</a></li>
+        </ul>
+    </nav>
+    <div class="trans"><p class="Donate">Donate to Your Mental Health Foundation</p>
+        <div class="wrapper">
+            <h2>Payment Form</h2>
+            <form method="post" onsubmit="checkPassword(this)">
+                <h4>Account</h4>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="text" placeholder="Full Name" required class="name">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="text" placeholder="Name on Card" required class="name">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="email" placeholder="E-mail address" required class="name">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                </div>
+                <div class="input_group"> 
+                    <div class="input_box">
+                        <input type="text" placeholder="Address" required class="name">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="text" placeholder="City" required class="name">
+                        <i class="fas fa-university"></i>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <h4>Date of Birth</h4>
+                        <input type="text" placeholder="DD" required class="dob" min="1" max="31">
+                        <input type="text" placeholder="MM" required class="dob" min="1" max="12">
+                        <input type="text" placeholder="YYYY" required class="dob" min="0" max="9999">
+                    </div>
+                    <div class="input_box">
+                        <h4>Gender</h4>
+                        <input type="radio" id="b1" name="gender" required checked>
+                        <label for="b1">MALE</label>
+                        <input type="radio" id="b2" name="gender" required>
+                        <label for="b2">FEMALE</label>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <h4>PAYMENT DETAILS</h4>
+                        <input type="radio" id="bc1" name="pay" class="radio" checked>
+                        <label for="bc1"><span><i class="fab fa-cc-visa"> Credit Card</i></span></label>
+                        <input type="radio" id="bc2" name="pay" class="radio">
+                        <label for="bc2"><span><i class="fab fa-cc-mastercard"> Debit Card</i></span></label>
+                        <input type="radio" id="bc3" name="pay" class="radio">
+                        <label for="bc3"><span><i class="fab fa-cc-paypal"> Paypal</i></span></label>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="tel" class="name" name="number1" placeholder="Card Number 1111-2222-3333-4444" required>
+                        <i class="far fa-credit-card"></i>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="password" class="name" name="number2" placeholder="Card CVC 632" required>
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="number" class="name" placeholder="Exp Month" required>
+                        <i class="far fa-calendar-alt"></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="number" min="2021" class="name" placeholder="Exp Year" required>
+                        <i class="far fa-calendar-alt"></i>
+                    </div>
+                </div>
+                <div class="input_group">
+                    <div class="input_box">
+                        <input type="number" class="name" placeholder="Enter Amount to Donate (In $)" required>
+                        <i class="fas fa-money-check-alt"></i>
+                    </div>
+                </div>
+                    <div class="input-box">
+                        <button type="submit" class="submit">Pay Now</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <br><br>
+        <div class="outro">
+            <img src="logofull.png" class="logofull">
+        </div>
+        <div class="YMHF">    
+            <p>Your Mental Health Foundation</p>
+        </div>
+        <div class="socials">
+            <div class="icons">
+                <a href="https://en-gb.facebook.com/" class="btn" title="Facebook" target="_blank">
+                    <i class="fab fa-facebook-f"></i></a>&ensp;
+                <a href="https://www.youtube.com/" class="btny" title="Youtube" target="_blank">
+                    <i class="fab fa-youtube"></i></a>&ensp;
+                <a href="https://twitter.com/?lang=en" class="btnt" title="Twitter" target="_blank">
+                    <i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="address">
+            <p>232 S.E. 1st Avenue, Florida, USA.</p>
+        </div>
+        <div class="rights">
+            <p><small>All Rights Reserved 2021. Your Mental Health Foundation.</small></p>
+        </div>
+        <div class="Privacy-Policy">
+            <a href="#" style="color: white;">PRIVACY POLICY</a>
+        </div>
+        <div class="policy">
+            <p align="center"><small>You consent to receive communications from us by way of e-mails, phone calls, Text Messages and SMS from employees and partners by participating on our website or communicating through our email ID help@yourmentalhealthfoundation.com. Users will be required to provide their valid phone numbers and e-mail addresses to facilitate such communication. We may also use your e-mail address to send updates, newsletters, and changes to features of the Service</small></p>
+        </div>    </div>
+    <script src="9.2.js"></script>
+</body>
+</html>

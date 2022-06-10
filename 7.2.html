@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YMH Foundation | Test
+    </title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="7.2.css">
+    <link rel="shortcut icon" type="image/png" href="icon.png">
+    <script>
+        function myFunction() {
+          window.location.href='8.2.html';
+        }
+        </script>
+</head>
+<body class="body">
+    <nav class="navbar">
+        <h1>YOUR MENTAL HEALTH FOUNDATION</h1>
+        <ul class="nav_links">
+            <li><a href="1.2.html" class="ctn2">HOME</a></li>
+            <li><a href="2.2.html" class="ctn2 active">GET HELP</a></li>
+            <li><a href="4.2.html" class="ctn2"> DONATE</a></li>
+            <li><a href="3.2.html" class="ctn2">ABOUT US</a></li>
+            <li><a href="5.2.html" class="ctn2">COUNSELLOR LOGIN</a></li>
+        </ul>
+    </nav>
+    <div class="trans"><div>
+        <p class="survey-start"><b><u>DEPRESSION TEST</u></b></p>
+    </div>
+    <br><br>
+    <div class="stepper-wrapper">
+        <div class="stepper-item completed">
+            <div class="step-counter"><i class="fas fa-check"></i></div>
+            <div class="step-name">Test Questions</div>
+        </div>
+        <div class="stepper-item active">
+            <div class="step-counter"><i class="fas fa-check"></i></div>
+            <div class="step-name">Demographic Information</div>
+        </div>
+        <div class="stepper-item active">
+            <div class="step-counter"><i class="fas fa-check"></i></div>
+            <div class="step-name">Your Results</div>
+        </div>
+    </div>
+    <div>
+        <form>
+            <p class="overview">Please take a moment to answer the following optional questions. Your answers are totally anonymous—we won't be able to identify you based on this information. Your answers help us provide better information and support for people like you.<br><br>
+                You can answer as many or as few questions as you would like.
+            </p>
+            <p class="about-you">ABOUT YOU</p>
+            <p class="questions">Age Range</p>
+            <select name="age" id="group" class="select-list" style="width: 15%;">
+                <option value="Select" disabled selected>Select an age group</option>
+                <option value="11-17">11-17</option>
+                <option value="18-24">18-24</option>
+                <option value="25-34">25-34</option>
+                <option value="35-44">35-44</option>
+                <option value="45-54">45-54</option>
+                <option value="55-64">55-64</option>
+                <option value="65+">65+</option>
+            </select>
+            <p class="questions">Gender</p>
+            <form>
+                <div class="radiobuttons">
+                    <input id="rb1" type="radio" name="radiogroup1" required >
+                        <label for="rb1">Male</label>
+                    <input id="rb2" type="radio" name="radiogroup1" >
+                        <label for="rb2">Female</label>
+                    <input id="rb3" type="radio" name="radiogroup1">
+                        <label for="rb3">Another Gender</label>
+                </div>
+                <br>
+            <p class="questions">Race/Ethnicity</p>
+            <select name="race" id="race" class="select-list" style="width: 15%;">
+                <option value="Select" disabled selected>Select a Race</option>
+                <option value="AI-AN">AMERICAN INDIAN OR ALASKA NATIVE</option>
+                <option value="A">ASIAN</option>
+                <option value="b">BLACK OR AFRICAN-AMERICAN</option>
+                <option value="H-L">HISPANIC OR LATINO</option>
+                <option value="ME-NA">MIDDLE EASTERN OR NORTH AFRICAN</option>
+                <option value="NH-P">NATIVE HAWAIIAN OR OTHER PACIFIC ISLANDER</option>
+                <option value="W">WHITE(NON-HISPANIC)</option>
+                <option value="M">MORE THAN ONE OF THE ABOVE</option>
+                <option value="O">OTHER</option>
+            </select>
+            <br>
+            <p class="questions">Household Income</p>
+            <select name="inc" id="inc" class="select-list" style="width: 15%;">
+                <option value="Select" disabled selected>Select an Income</option>
+                <option value="20k">LESS THAN $20,000</option>
+                <option value="30k">$20,000-$39,000</option>
+                <option value="40k">$40,000-$59,000</option>
+                <option value="60k">$60,000-$79,000</option>
+                <option value="80k">$80,000-$99,000</option>
+                <option value="100k">$100,000-$149,000</option>
+                <option value="150k">$150,000+</option>
+            </select>
+            <p class="questions">Which of the following populations describes you?<br>
+                Select all that apply.</p>
+                <label class="container" id="Veteran or active duty military">Veteran or active duty military
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Caregiver of someone living with emotional or physical illness">Caregiver of someone living with emotional or physical illness
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="LGBTQ+">LGBTQ+
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Student">Student
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Trauma survivor">Trauma survivor
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="New or expecting mother">New or expecting mother
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Healthcare worker">Healthcare worker
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            <p class="questions">Which of the following describes your sexual orientation?<br>
+            Select all that apply.</p>
+                <label class="container" id="Lesbian">Lesbian
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Gay">Gay
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Bisexual">Bisexual
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Queer">Queer
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Pansexual">Pansexual
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Asexual">Asexual
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Other">Other
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            <p class="about-you">ABOUT YOUR MENTAL HEALTH</p>
+            <p class="questions">Have you ever been diagnosed with a mental health condition by a professional (doctor, therapist, etc.)?</p>
+            <div class="radiobuttons">
+                <input id="rb4" type="radio" name="radiogroup2" required >
+                    <label for="rb4">Yes</label>
+                <input id="rb5" type="radio" name="radiogroup2" >
+                    <label for="rb5">No</label>
+            </div>
+            <p class="questions">Have you ever received treatment/support for a mental health problem?</p>  
+            <div class="radiobuttons">
+                <input id="rb6" type="radio" name="radiogroup3" required >
+                    <label for="rb6">Yes</label>
+                <input id="rb7" type="radio" name="radiogroup3" >
+                    <label for="rb7">No</label>
+            <br>
+            </div>
+            <p class="questions">Think about your mental health test. What are the main things contributing to your mental health problems right now?</p>
+                <label class="container" id="Coronavirus">Coronavirus
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Racism">Racism
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Rel. Problems">Relationship Problems
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Past trauma">Past trauma
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Current events (news, politics, etc.)">Current events (news, politics, etc.)
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Loneliness or isolation">Loneliness or isolation
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Grief or loss of someone or something">Grief or loss of someone or something
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Financial problems">Financial problems
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Other">Other
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            <p class="about-you">ABOUT YOUR HEALTH</p>
+            <p class="questions">Do you currently have health insurance?</p>
+            <div class="radiobuttons">
+                <input id="rb8" type="radio" name="radiogroup4" required >
+                    <label for="rb8">Yes</label>
+                <input id="rb9" type="radio" name="radiogroup4" >
+                    <label for="rb9">No</label>
+            </div>
+            <p class="questions">Do you have any of the following general health conditions?<br>
+            Select all that apply.<br></p>
+                <label class="container" id="Heart disease">Heart disease
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Diabetes">Diabetes
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Cancer">Cancer
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Arthritis or other chronic pain">Arthritis or other chronic pain
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="COPD or other lung conditions">COPD or other lung conditions
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Movement Disorders (involuntary tics, tardive dyskinesia)">Movement Disorders (involuntary tics, tardive dyskinesia)
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="HIV/AIDS">HIV/AIDS
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="Other">Other
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            <p class="about-you">ADDITIONAL INFORMATION</p>
+            <p class="questions">E-mail address</p>
+                <input type="email" class="e-mail" style="width: 15%;" placeholder="Enter a valid email address" required>
+            <p class="questions">Mobile Number</p>
+                <input type="number" class="mno"style="width: 15%;" placeholder="Enter a valid mobile number" required>
+            <P CLASS="questions">State</P>
+                <select name="age" id="group" class="select-list" style="width: 15%;">
+                    <option value="Select" disabled selected>Select a state</option>
+                    <option value="OUSA">I live outside the United States</option>
+                    <option value="Alabama">Alabama</option>
+                    <option value="Alaska">Alaska</option>
+                    <option value="Arizona">Arizona</option>
+                    <option value="Arkansas">Arkansas</option>
+                    <option value="CALIFORNIA">California</option>
+                    <option value="COLORADO">Colorado</option>
+                    <option value="CONNECTICUT">Connecticut</option>
+                    <option value="Delaware">Delaware</option>
+                    <option value="Florida">Florida</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Idaho">Idaho</option>
+                    <option value="Illinois">Illinois</option>
+                    <option value="Indiana">Indiana</option>
+                    <option value="Iowa">Iowa</option>
+                    <option value="Kansas">Kansas</option>
+                    <option value="Kentucky">Kentucky</option>
+                    <option value="Louisiana">Louisiana</option>
+                    <option value="Maine">Maine</option>
+                    <option value="Maryland">Maryland</option>
+                    <option value="Massachusetts">Massachusetts</option>
+                    <option value="Michigan">Michigan</option>
+                    <option value="Minnesota">Minnesota</option>
+                    <option value="Mississippi">Mississippi</option>
+                    <option value="Missouri">Missouri</option>
+                    <option value="Montana">Montana</option>
+                    <option value="Nebraska">Nebraska</option>
+                    <option value="Nevada">Nevada</option>
+                    <option value="New Hampshire">New Hampshire</option>
+                    <option value="New Jersey">New Jersey</option>
+                    <option value="New Mexico">New Mexico</option>
+                    <option value="New York">New York</option>
+                    <option value="North Carolina">North Carolina</option>
+                    <option value="North Dakota">North Dakota</option>
+                    <option value="Ohio">Ohio</option>
+                    <option value="Oklahoma">Oklahoma</option>
+                    <option value="Oregon">Oregon</option>
+                    <option value="Pennsylvania">Pennsylvania</option>
+                    <option value="Rhode Island">Rhode Island</option>
+                    <option value="South Carolina">South Carolina</option>
+                    <option value="South Dakota">South Dakota</option>
+                    <option value="Tennessee">Tennessee</option>
+                    <option value="Texas">Texas</option>
+                    <option value="Utah">Utah</option>
+                    <option value="Vermont">Vermont</option>
+                    <option value="Virginia">Virginia</option>
+                    <option value="Washington">Washington</option>
+                    <option value="West Virginia">West Virginia</option>
+                    <option value="Wisconsin">Wisconsin</option>
+                    <option value="Wyoming">Wyoming</option>
+                    <option value="UST">I Live in a US Territory</option>
+                </select>
+                <br>
+            <p class="questions">Zip/Postal Code</p>
+                <input type="number" class="zip-code" min="10000" max="99999" style="width: 15%;" required placeholder="Enter zip code">
+                <BR>
+                    <button id="submission" onclick="myFunction()" class="submit";>NEXT</button> 
+            </form>
+                  
+    </div>
+    <div>
+        <p class="warning"><b>Please note:</b> <i>Online screening tools are not diagnostic instruments. You are encouraged to share your results with a physician or healthcare provider. Your Mental Health Foundation, sponsors, partners, and advertisers disclaim any liability, loss, or risk incurred as a consequence, directly or indirectly, from the use and application of these screens.</i></p>
+    </div>
+    <div class="outro">
+        <img src="logofull.png" class="logofull">
+    </div>
+    <div class="YMHF">    
+        <p>Your Mental Health Foundation</p>
+    </div>
+    <div class="socials">
+        <div class="icons">
+            <a href="https://en-gb.facebook.com/" class="btn" title="Facebook" target="_blank">
+                <i class="fab fa-facebook-f"></i></a>&ensp;
+            <a href="https://www.youtube.com/" class="btny" title="Youtube" target="_blank">
+                <i class="fab fa-youtube"></i></a>&ensp;
+            <a href="https://twitter.com/?lang=en" class="btnt" title="Twitter" target="_blank">
+                <i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+    <div class="address">
+        <p>232 S.E. 1st Avenue, Florida, USA.</p>
+    </div>
+    <div class="rights">
+        <p><small>All Rights Reserved 2021. Your Mental Health Foundation.</small></p>
+    </div>
+    <div class="Privacy-Policy">
+        <a href="#" style="color: white;">PRIVACY POLICY</a>
+    </div>
+    <div class="policy">
+        <p align="center"><small>You consent to receive communications from us by way of e-mails, phone calls, Text Messages and SMS from employees and partners by participating on our website or communicating through our email ID help@yourmentalhealthfoundation.com. Users will be required to provide their valid phone numbers and e-mail addresses to facilitate such communication. We may also use your e-mail address to send updates, newsletters, and changes to features of the Service</small></p>
+    </div></div>
+</body>
+</html>
